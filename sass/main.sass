@@ -3,13 +3,15 @@
     padding: 0
     box-sizing: border
 
+$blueValue : #1680c2
+
 @keyframes shakeY 
     50%
-        transform: translateY(10px);
+        transform: translateY(10px)
     0%,
     100%
-        transform: translateY(0);
-        
+        transform: translateY(0)
+
 html 
     scroll-behavior: smooth
 body 
@@ -27,6 +29,8 @@ body
     text-align: center
     p 
         text-align: justify
+    i 
+        font-size: 50px
 
 .nav-fix::before
     display: block
@@ -50,9 +54,9 @@ nav
         color: white
         transition: color .35s
     a:hover
-        color: #1680c2
+        color: $blueValue
     .active
-        color: #1680c2
+        color: $blueValue
 //Header
 header
     overflow: hidden
@@ -85,19 +89,24 @@ header
         h1
             padding: 10px
             font-size: 44px
+            // animation: bounceInUp 1.2s .3s
         p 
             padding: 10px
             font-size: 28px
-        button
-            font-size: 14px
+            // animation: bounceInUp 1.2s .5s
+        .btn
+            font-size: 12px
             font-family: 'Raleway', sans-serif;
             text-transform: uppercase
+            // animation: bounceInUp 1.2s .7s
 
         .fa-angle-double-down
             display: none
 
 // MAIN
-
-    // background-color: red
+.skills
+    transition: color .3s
+.skills:hover
+    color: $blueValue
 
     

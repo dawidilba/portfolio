@@ -53,6 +53,10 @@ body {
   text-align: justify;
 }
 
+.wrapper i {
+  font-size: 50px;
+}
+
 .nav-fix::before {
   display: block;
   content: "";
@@ -144,13 +148,22 @@ header {
   font-size: 28px;
 }
 
-.header-img .hero-text button {
-  font-size: 14px;
+.header-img .hero-text .btn {
+  font-size: 12px;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
 }
 
 .header-img .hero-text .fa-angle-double-down {
   display: none;
+}
+
+.skills {
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+.skills:hover {
+  color: #1680c2;
 }
 /*# sourceMappingURL=main.css.map */
