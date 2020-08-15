@@ -64,6 +64,10 @@ body {
   margin-top: -70px;
 }
 
+.jumbotron {
+  margin-bottom: 0;
+}
+
 nav {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -159,6 +163,7 @@ header {
 }
 
 .skills {
+  visibility: hidden;
   -webkit-transition: color .3s;
   transition: color .3s;
 }
