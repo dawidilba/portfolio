@@ -1,0 +1,105 @@
+@keyframes shakeY{
+    50%{
+        transform: translateY(10px);
+    }
+    0%,
+    100%{
+        transform: translateY(0);
+    }
+}
+header{
+    overflow: hidden;
+}
+.header-img{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    background-image: url("../images/b_640.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: 0;
+    .hero-img{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: #0a0414d7; 
+        z-index: -1;
+    }
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        font-family: 'Major Mono Display', monospace;
+        text-shadow: 1px 1px 4px black;
+        h1{
+            padding: 10px;
+            font-size: 44px;
+        }
+        p{
+            padding: 10px;
+            font-size: 28px;
+        }
+        .btn{
+            font-size: 12px;
+            font-family: 'Raleway', sans-serif;
+            text-transform: uppercase;
+        }
+        .fa-angle-double-down{
+            display: none;
+        }
+    }
+}
+@media (min-width: 576px){
+    .header-img{
+        background-image: url("../images/b_1280.jpg");
+        .hero-text{
+            h1{
+                font-size: 50px;
+            }
+            p{
+                font-size: 32px;
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    .header-img{
+        .hero-text{
+            h1{
+            font-size: 56px
+            }
+            p{
+            font-size: 34px
+            }
+            .fa-angle-double-down{
+                display: inline;
+                position: absolute;
+                bottom: 30px;
+                color: white;
+                font-size: 50px;
+                text-decoration: none;
+                animation: shakeY 1s infinite;
+            }
+        }
+    }
+
+}
+@media (min-width: 992px) {
+    .header-img{
+        background-image: url("../images/b_1920.jpg");
+        .hero-text{
+            h1{
+                font-size: 60px;
+            }
+            p{
+                font-size: 36px;
+            }
+        }
+    }
+}
