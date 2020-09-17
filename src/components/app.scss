@@ -1,0 +1,39 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    position: relative; 
+    background-color: #333;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+.wrapper{
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    p{
+        text-align: justify;
+    }
+    i{
+        font-size: 50px;
+    }
+}
+.nav-fix::before{
+    display: block;
+    content: "";
+    height: 70px;
+    margin-top: -70px;
+}
+.jumbotron{
+    margin-bottom: 0;
+}
+    
+
