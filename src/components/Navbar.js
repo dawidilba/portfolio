@@ -5,7 +5,7 @@ import './navbar.scss';
 
 export default function Navigation(){
     return(
-        <Navbar collapseOnSelect fixed="top" variant="dark" expand="md">
+        <Navbar collapseOnSelect fixed="top" variant="dark" expand="lg">
             <Navbar.Brand href="#">dAwid ilbA</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -15,6 +15,7 @@ export default function Navigation(){
                 <Nav.Link href="#skills">Umiejętności</Nav.Link>
                 <Nav.Link href="#projects">Projekty</Nav.Link>
                 <Nav.Link href="#contact">Kontakt</Nav.Link>
+                <Nav.Link href="#download">Pobierz CV</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Navbar>

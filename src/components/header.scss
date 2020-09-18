@@ -77,15 +77,6 @@ header{
             p{
             font-size: 34px
             }
-            .fa-angle-double-down{
-                display: inline;
-                position: absolute;
-                bottom: 30px;
-                color: white;
-                font-size: 50px;
-                text-decoration: none;
-                animation: shakeY 1s infinite;
-            }
         }
     }
 
@@ -99,6 +90,15 @@ header{
             }
             p{
                 font-size: 36px;
+            }
+            .fa-angle-double-down{
+                display: inline;
+                position: absolute;
+                bottom: 30px;
+                color: white;
+                font-size: 50px;
+                text-decoration: none;
+                animation: shakeY 1s infinite;
             }
         }
     }

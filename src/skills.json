@@ -1,0 +1,46 @@
+[
+    {
+        "name" : "html5",
+        "description" : "HTML5"
+    },
+    {
+        "name" : "CSS",
+        "description" : "CSS / Flexbox / GRID"
+    },
+    {
+        "name" : "sass",
+        "description" : "SASS/SCSS"
+    },
+    {
+        "name" : "bootstrap",
+        "description" : "Bootstrap"
+    },
+    {
+        "name" : "javascript",
+        "description" : "JavaScript"
+    },
+    {
+        "name" : "react",
+        "description" : "React / Hooks / Router DOM"
+    },
+    {
+        "name" : "sql",
+        "description" : "mySQL"
+    },    
+    {
+        "name" : "git",
+        "description" : "GIT"
+    },
+    {
+        "name" : "c++",
+        "description" : "C / C++"
+    },
+    {
+        "name" : "csharp",
+        "description" : "C#"
+    },
+    {
+        "name" : "python",
+        "description" : "Python"
+    }
+]
