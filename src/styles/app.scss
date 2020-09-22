@@ -23,11 +23,18 @@ body {
 .nav-fix::before{
     display: block;
     content: "";
-    height: 70px;
-    margin-top: -70px;
+    height: 56px;
+    margin-top: -56px;
 }
 .jumbotron{
     margin-bottom: 0;
+    padding-bottom: 5px;
 }
-    
+.underline{
+    margin: 0 auto 40px;
+    width: 100px;
+    height: 3px;
+    background-color: royalblue;
+}
+// Header style
 

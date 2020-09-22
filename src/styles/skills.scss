@@ -1,0 +1,13 @@
+.skills-icon{
+    width: 50px;
+}
+@media (min-width: 425px){
+    .skills-icon{
+        width: 60px;
+    } 
+}
+@media (min-width: 650px){
+    .skills-icon{
+        width: 70px;
+    } 
+}

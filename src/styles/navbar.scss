@@ -6,3 +6,10 @@
         font-family: 'Major Mono Display', monospace;
     }
 }
+.link{
+    color: white !important;
+    transition: color .35s;
+}
+.link:hover{
+    color: royalblue !important; 
+}
