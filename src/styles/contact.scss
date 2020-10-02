@@ -1,0 +1,27 @@
+.contact-img{
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    background-image: url("../images/contact_640.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    .contact-hero{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0, .7); 
+        z-index: -1;
+    }
+}
+@media (min-width: 576px){
+    .contact-img{
+        background-image: url("../images/contact_1280.jpg");
+    }
+}
+@media (min-width: 992px) {
+    .contact-img{
+        background-image: url("../images/contact_1920.jpg");
+    }
+}
