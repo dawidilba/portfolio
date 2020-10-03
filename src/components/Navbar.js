@@ -15,7 +15,7 @@ export default function Navigation(){
                 <Nav.Link className="link" href="#skills">Umiejętności</Nav.Link>
                 <Nav.Link className="link" href="#projects">Projekty</Nav.Link>
                 <Nav.Link className="link" href="#contact">Kontakt</Nav.Link>
-                <Nav.Link className="link" href="#download">Pobierz CV</Nav.Link>
+                <a href={ process.env.PUBLIC_URL + "/assets/CV_Dawid_ILBA.pdf"} className="link cv" download>Pobierz CV</a>
             </Nav>
             </Navbar.Collapse>
         </Navbar>

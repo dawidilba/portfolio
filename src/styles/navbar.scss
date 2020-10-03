@@ -6,10 +6,19 @@
         font-family: 'Major Mono Display', monospace;
     }
 }
+.cv{
+    text-decoration: none !important;
+    padding: .5rem 0;
+}
 .link{
     color: white !important;
     transition: color .35s;
 }
 .link:hover{
     color: royalblue !important; 
+}
+@media (min-width: 992px){
+    .cv{
+        padding: .5rem;
+    }
 }
