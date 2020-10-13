@@ -24,6 +24,10 @@
         "description" : "React / Hooks / Router DOM"
     },
     {
+        "name" : "nodejs",
+        "description" : "NodeJS"
+    },
+    {
         "name" : "sql",
         "description" : "mySQL"
     },    

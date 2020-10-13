@@ -8,8 +8,8 @@ html {
 }
 body {
     position: relative; 
-    background-color: #333;
     font-family: 'Raleway', sans-serif;
+    background-color: #e9ecef;
     color: white;
     font-size: 16px;
 }
@@ -20,13 +20,8 @@ body {
     color: black;
     text-align: center;
 }
-.nav-fix::before{
-    display: block;
-    content: "";
-    height: 56px;
-    margin-top: -56px;
-}
 .jumbotron{
+    width: 100vw;
     margin-bottom: 0;
     padding: 1.5rem 1rem;
 }
@@ -36,5 +31,19 @@ body {
     height: 3px;
     background-color: royalblue;
 }
-// Header style
+// Fixing AOS problems on mobile
+section{
+    padding-top: 40px; // navbar scroling problem
+    overflow-x: hidden;
+    overflow: hidden;
+}
+footer{
+    background-color: #122;
+    p{
+        font-size: 17px;
+        padding: 8px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
 

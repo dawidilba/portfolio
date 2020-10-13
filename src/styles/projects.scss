@@ -9,4 +9,16 @@
         font-size: 22px;
         font-weight: bold;
     }
+    p{
+        margin-bottom: 4px;
+    }
+}
+.icons{
+    font-size: 24px;
+    margin: 0 5px;
+}
+@media (min-width: 345px){
+    .icons{
+        font-size: 32px;
+    }
 }

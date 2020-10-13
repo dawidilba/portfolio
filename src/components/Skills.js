@@ -8,7 +8,7 @@ import "../styles/skills.scss";
 
 export default function Skills() {
     return(
-        <section id="skills" className="nav-fix">
+        <section id="skills">
         <Jumbotron fluid>
             <div class="wrapper">
                 <h2>Umiejętności</h2>
@@ -16,9 +16,9 @@ export default function Skills() {
                 <Container fluid>
                     <Row>
                 {
-                    skillsJSON.map(el =>{
+                    skillsJSON.map((el, i) =>{
                         return (
-                            <Col xs={6} sm={4} md={3} lg={2}>
+                            <Col data-aos="fade-up" data-aos-delay={(i%2===0) ? 100 : 200} xs={6} sm={4} md={3} lg={2}>
                                 <img className="skills-icon" src={process.env.PUBLIC_URL + "/assets/" + el.name + ".png"} alt={el.name + " icon"} />
                                 <p>{el.description}</p>
                             </Col>
