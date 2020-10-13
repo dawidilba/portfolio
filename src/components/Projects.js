@@ -84,7 +84,7 @@ export default function Projects(){
                             <IconsFont project="1" />
                             <div className="w-25 ml-auto mt-n4">
                                 <Button className="mr-1" variant="danger" disabled="true">Live</Button>
-                                <a href="https://github.com/dawidilba/portfolio" target="_blank" rel="noopener noreferrer"><Button variant="dark"><i class="fab fa-github"></i></Button></a>
+                                <a href="https://github.com/dawidilba/portfolio/tree/master" target="_blank" rel="noopener noreferrer"><Button variant="dark"><i class="fab fa-github"></i></Button></a>
                             </div>
                         </Carousel.Caption>
                     </Carousel.Item>
